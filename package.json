@@ -4,7 +4,7 @@
   "description": "* Learning tailwind css 'framework'",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "npx tailwindcss build -i src/main.css -o src/styles.css"
   },
   "repository": {
     "type": "git",
